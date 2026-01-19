@@ -5,14 +5,14 @@ import React from "react";
 const SidebarSteps = () => {
   const steps = [
     { stepNum: 1, title: "Step 1", description: "Your Info" },
-    { stepNum: 2, title: "Step 2", description: "Select Plan" },
-    { stepNum: 3, title: "Step 3", description: "Add-Ons" },
-    { stepNum: 4, title: "Step 4", description: "Summary" },
+    { stepNum: 2, title: "Step 2", description: "Education" },
+    { stepNum: 3, title: "Step 3", description: "Career/Skills" },
+    { stepNum: 4, title: "Step 4", description: "Submit Form" },
   ];
   const [currentStep, setCurrentStep] = React.useState(1);
   return (
     <aside className=" h-full rounded-lg pt-20 bg-blue-600 w-fit px-15 lg:bg-[url('/bg-sidebar-desktop.svg')] bg-bottom bg-no-repeat bg-cover ">
-      <nav className=" h-full flex flex-col  ">
+      <nav className="border-red-600 h-full flex flex-col  ">
         {steps.map((step) => (
           <div key={step.stepNum} className="flex items-center gap-2 mb-4">
             <div

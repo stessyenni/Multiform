@@ -17,11 +17,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multi
 "use client";
 ;
 ;
-const StepperControl = ()=>{
+const StepperControl = ({ isSubmitting })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "container flex justify-around mt-4 mb-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                disabled: isSubmitting,
                 className: "bg-blue-500 text-white px-4 py-2 rounded",
                 children: "Previous"
             }, void 0, false, {
@@ -30,11 +31,12 @@ const StepperControl = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                disabled: isSubmitting,
                 className: "bg-green-500 text-white px-4 py-2 rounded",
                 children: "Next"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/Multiform/src/components/stepperControl.jsx",
-                lineNumber: 10,
+                lineNumber: 13,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -69,39 +71,45 @@ function MultiForm() {
     const [success, setSuccess] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const handleSubmit = async (e)=>{
         e.preventDefault();
-        setSubmitted(true);
         setIsSubmitting(true);
-        console.log({
-            fullname,
-            email,
-            Phone
-        });
-        const res = await fetch("/api/survey", {
-            method: "POST",
-            headers: {
-                "content-type": "application/json"
-            },
-            body: JSON.stringify({
+        setSubmitted(false);
+        setSuccess(false);
+        try {
+            console.log({
                 fullname,
                 email,
                 phone
-            })
-        });
-        if (!res.ok) {
-            const errData = await res.json();
-            console.error("Server error", errData.msg);
+            });
+            const res = await fetch("/api/applicationform", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    fullname,
+                    email,
+                    phone
+                })
+            });
+            const data = await res.json();
+            if (!res.ok) {
+                console.error("Server error:", data.msg);
+                setSuccess(false);
+                setSubmitted(true);
+                return;
+            }
+            console.log("Successful:", data.msg);
+            setSuccess(true);
             setSubmitted(true);
-            setSuccess(false);
-            return;
-        }
-        const { msg, success } = await res.json();
-        //   setError(msg)
-        setSuccess(success);
-        console.log("Successful:", msg);
-        if (success) {
+            // Clear form on success
             setFullname("");
             setEmail("");
             setPhone("");
+        } catch (error) {
+            console.error("Request failed:", error);
+            setSuccess(false);
+            setSubmitted(true);
+        } finally{
             setIsSubmitting(false);
         }
     };
@@ -113,7 +121,7 @@ function MultiForm() {
                 children: "Personal Info"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                lineNumber: 59,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -126,7 +134,7 @@ function MultiForm() {
                         children: "1. Name*"
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                        lineNumber: 67,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -140,7 +148,7 @@ function MultiForm() {
                         placeholder: "e.g John Doe"
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                        lineNumber: 70,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -149,7 +157,7 @@ function MultiForm() {
                         children: "3. Your Email Address*"
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                        lineNumber: 81,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -163,7 +171,7 @@ function MultiForm() {
                         placeholder: "Enter your email"
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                        lineNumber: 87,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -172,7 +180,7 @@ function MultiForm() {
                         children: "5. Phone Number*"
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                        lineNumber: 98,
+                        lineNumber: 107,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -185,18 +193,18 @@ function MultiForm() {
                         placeholder: "e.g +1 234 567 890"
                     }, void 0, false, {
                         fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                        lineNumber: 104,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$src$2f$components$2f$stepperControl$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                        lineNumber: 115,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                lineNumber: 63,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             submitted && success && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -204,7 +212,7 @@ function MultiForm() {
                 children: "Form Submitted Successfully! Thank You For Your Response!"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                lineNumber: 118,
+                lineNumber: 129,
                 columnNumber: 9
             }, this),
             submitted && !success && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$Multiform$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -212,13 +220,13 @@ function MultiForm() {
                 children: "Something went wrong! Please try again"
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-                lineNumber: 123,
+                lineNumber: 134,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/GitHub/Multiform/src/components/form.jsx",
-        lineNumber: 58,
+        lineNumber: 67,
         columnNumber: 5
     }, this);
 }

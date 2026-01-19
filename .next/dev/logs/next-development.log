@@ -349,3 +349,851 @@ https://nextjs.org/docs/messages/module-not-found
 [02:21:44.227] Server  LOG     ✓ Compiled in 52ms
 [02:21:44.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [02:24:58.878] Server  LOG     ✓ Compiled in 29ms
+[02:30:31.393] Server  LOG     ✓ Compiled in 49ms
+[02:30:39.693] Server  LOG     ✓ Compiled in 28ms
+[02:35:05.954] Server  LOG     ✓ Compiled in 103ms
+[02:39:39.787] Server  LOG     ✓ Compiled in 65ms
+[02:44:24.389] Server  LOG     ✓ Compiled in 63ms
+[02:44:44.238] Server  LOG     ✓ Compiled in 71ms
+[02:44:45.368] Browser ERROR   uncaughtError: ReferenceError: isSubmitting is not defined
+[02:45:03.609] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:45:03.715] Server  LOG     ✓ Compiled in 34ms
+[02:45:03.876] Server  ERROR   ⨯ ReferenceError: isSubmitting is not defined
+[02:45:04.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:45:05.371] Browser ERROR   uncaughtError: ReferenceError: isSubmitting is not defined
+[02:45:22.569] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:45:22.691] Server  LOG     ✓ Compiled in 33ms
+[02:45:23.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:45:40.276] Server  LOG     ✓ Compiled in 91ms
+[02:46:02.207] Server  LOG     ✓ Compiled in 211ms
+[02:47:25.578] Server  LOG     ✓ Compiled in 31ms
+[02:47:26.369] Browser ERROR   uncaughtError: ReferenceError: isSubmitting is not defined
+[02:47:58.876] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:47:59.073] Server  LOG     ✓ Compiled in 28ms
+[02:47:59.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:49:52.323] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.325] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.489] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.489] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.490] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.491] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.494] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.495] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.501] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.502] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.503] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.503] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.504] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.505] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.506] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.506] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:49:52.522] Server  LOG     ✓ Compiled in 309ms
+[02:49:53.369] Browser ERROR   ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+https://nextjs.org/docs/messages/module-not-found
+[02:50:44.948] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.949] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.956] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.957] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.958] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.958] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.959] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.960] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.963] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.969] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.974] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.975] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.983] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.991] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.992] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.993] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:50:44.994] Server  LOG     ✓ Compiled in 36ms
+[02:50:45.369] Browser ERROR   ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form1'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form1";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form1' inside of [project]/Documents/GitHub/Multiform
+
+https://nextjs.org/docs/messages/module-not-found
+[02:52:47.776] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.776] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.785] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.785] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.786] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.786] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.787] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.788] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.789] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.792] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.793] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.795] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.796] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.797] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.800] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.801] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:52:47.817] Server  LOG     ✓ Compiled in 36ms
+[02:52:48.371] Browser ERROR   ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+https://nextjs.org/docs/messages/module-not-found
+[02:52:58.369] Browser ERROR   ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+https://nextjs.org/docs/messages/module-not-found
+[02:52:59.370] Browser ERROR   ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+https://nextjs.org/docs/messages/module-not-found
+[02:53:13.372] Browser ERROR   ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+https://nextjs.org/docs/messages/module-not-found
+[02:53:21.422] Browser ERROR   ./Documents/GitHub/Multiform/src/app/page.js:2:1
+Module not found: Can't resolve '@/components/form'
+  1 | import Stepper from "@/components/stepper";
+> 2 | import MultiForm from "@/components/form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import StepperControl from "@/components/stepperControl";
+  4 | import SidebarSteps from "@/components/sidebarSteps";
+  5 |
+
+Import map: aliased to relative './src/components/form' inside of [project]/Documents/GitHub/Multiform
+
+https://nextjs.org/docs/messages/module-not-found
+[02:58:11.117] Server  LOG     ✓ Compiled in 94ms
+[02:58:20.890] Server  LOG     ✓ Compiled in 68ms
+[02:58:26.021] Server  LOG     ✓ Compiled in 53ms
+[02:58:36.536] Server  LOG     ✓ Compiled in 37ms
+[03:03:09.876] Server  LOG     ✓ Compiled in 24ms
+[03:03:32.915] Server  LOG     ✓ Compiled in 16ms
+[03:03:43.041] Server  LOG     ✓ Compiled in 24ms
+[03:03:55.281] Server  LOG     ✓ Compiled in 21ms
+[03:04:09.119] Server  LOG     ✓ Compiled in 18ms
+[03:07:09.698] Server  LOG     ✓ Compiled in 15ms
+[03:07:14.518] Server  LOG     ✓ Compiled in 14ms
+[03:07:41.962] Server  LOG     ✓ Compiled in 19ms
+[03:07:49.889] Server  LOG     ✓ Compiled in 85ms
+[03:08:10.071] Server  LOG     ✓ Compiled in 22ms
+[03:10:44.134] Server  LOG     ✓ Compiled in 60ms
+[03:10:44.235] Browser ERROR   uncaughtError: ReferenceError: handleSubmit is not defined
+[03:11:00.715] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:11:00.754] Server  LOG     ✓ Compiled in 19ms
+[03:11:01.527] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

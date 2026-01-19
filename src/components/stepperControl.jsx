@@ -1,13 +1,19 @@
 "use client";
 import React from "react";
 
-const StepperControl = () => {
+const StepperControl = ({ isSubmitting }) => {
   return (
     <div className="container flex justify-around mt-4 mb-8">
-      <button className="bg-blue-500 text-white px-4 py-2 rounded">
+      <button
+        disabled={isSubmitting}
+        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800"
+      >
         Previous
       </button>
-      <button className="bg-green-500 text-white px-4 py-2 rounded">
+      <button
+        disabled={isSubmitting}
+        className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-800"
+      >
         Next
       </button>
     </div>
