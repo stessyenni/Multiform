@@ -9,7 +9,7 @@ const SidebarContext = createContext();
 export default function SideBar({ children }) {
   const [expanded, setExpanded] = useState(true);
   return (
-    <aside className="h-screen">
+    <aside className="h-screen border border-red-500 ">
       <nav className="h-full flex flex-col lg:bg-[url('/bg-sidebar-desktop.svg')] bg-[url('/bg-sidebar-mobile.svg')] bg-no-repeat bg-cover bg-cente border-r shadow-sm">
         <div className="px-2 flex justify-between items-center gap-5">
           <img
@@ -85,13 +85,14 @@ export function SidebarItem({ icon, text, active, alert }) {
       {!expanded && (
         <div
           className={`
-                        absolute left-full rounded-md px-2 ml-6
-                        bg-indigo-100 text-indigo-800 text-sm
-                        invisible opacity-20 -translate-x-3 transition-all
-                        group-hover:visible group-hover:opacity-100 group-hover:translate-x-0
-                        `}
+                               absolute left-full rounded-md px-2 ml-6
+                               bg-indigo-100 text-indigo-800 text-sm
+                               invisible opacity-20 -translate-x-3 transition-all
+                               group-hover:visible group-hover:opacity-100 group-hover:translate-x-0
+                               `}
         >
-          {text}
+          <h3>{text}</h3>
+          <h2>{text}</h2>
         </div>
       )}
     </li>

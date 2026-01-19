@@ -1,0 +1,351 @@
+[00:00:01.791] Server  LOG     ✓ Ready in 1243ms
+[00:00:08.440] Server  LOG     ○ Compiling / ...
+[00:00:11.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:26.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:36.971] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:42.266] Server  LOG     ✓ Compiled in 10ms
+[01:06:29.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:33.679] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:47.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:32.375] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:18:45.032] Server  LOG     ✓ Compiled in 60ms
+[01:20:04.140] Server  LOG     ✓ Compiled in 32ms
+[01:20:37.805] Server  LOG     ✓ Compiled in 186ms
+[01:30:43.345] Server  LOG     ✓ Compiled in 82ms
+[01:31:58.310] Server  LOG     ✓ Compiled in 54ms
+[01:32:30.263] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:43.338] Server  ERROR   ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[01:38:44.370] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[01:39:42.950] Server  ERROR   ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[01:39:43.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:43.383] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[01:40:11.967] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:40:12.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:12.374] Server  LOG     ✓ Compiled in 14ms
+[01:40:28.275] Server  LOG     ✓ Compiled in 61ms
+[01:40:32.953] Server  LOG     ✓ Compiled in 17ms
+[01:41:07.685] Server  LOG     ✓ Compiled in 17ms
+[01:41:53.177] Server  LOG     ✓ Compiled in 27ms
+[01:45:23.602] Server  LOG     ✓ Compiled in 20ms
+[01:45:43.160] Server  LOG     ✓ Compiled in 20ms
+[01:45:56.781] Server  LOG     ✓ Compiled in 82ms
+[01:46:15.678] Server  LOG     ✓ Compiled in 124ms
+[01:46:27.219] Server  LOG     ✓ Compiled in 44ms
+[01:47:25.130] Server  LOG     ✓ Compiled in 20ms
+[01:49:41.928] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:49:43.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:25.927] Server  LOG     ✓ Compiled in 23ms
+[01:53:05.790] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:57:37.183] Server  LOG     ✓ Compiled in 15ms
+[01:57:53.220] Server  LOG     ✓ Compiled in 13ms
+[01:59:27.427] Server  LOG     ✓ Compiled in 65ms
+[01:59:39.358] Server  LOG     ✓ Compiled in 48ms
+[01:59:45.901] Server  LOG     ✓ Compiled in 40ms
+[01:59:50.526] Server  LOG     ✓ Compiled in 15ms
+[02:00:42.361] Server  LOG     ✓ Compiled in 42ms
+[02:03:56.602] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.638] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.653] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.654] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.655] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.658] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.660] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.661] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.662] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.665] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.666] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.666] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.667] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.669] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.671] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.672] Server  ERROR   ⨯ ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:03:56.682] Server  LOG     ✓ Compiled in 491ms
+[02:03:57.369] Browser ERROR   ./Documents/GitHub/Multiform/src/app/page.js:17:1
+Module not found: Can't resolve '@/components/sidebarIcons'
+  15 | } from "lucide-react";
+  16 | import StepperControl from "@/components/stepperControl";
+> 17 | import SidebarSteps from "@/components/sidebarIcons";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function App() {
+  20 |   return (
+
+Import map: aliased to relative './src/components/sidebarIcons' inside of [project]/Documents/GitHub/Multiform
+
+https://nextjs.org/docs/messages/module-not-found
+[02:06:33.442] Server  LOG     ✓ Compiled in 17ms
+[02:07:05.086] Server  LOG     ✓ Compiled in 17ms
+[02:07:16.649] Server  LOG     ✓ Compiled in 32ms
+[02:07:31.734] Server  LOG     ✓ Compiled in 18ms
+[02:07:48.329] Server  LOG     ✓ Compiled in 54ms
+[02:08:29.838] Server  LOG     ✓ Compiled in 19ms
+[02:09:07.144] Server  LOG     ✓ Compiled in 16ms
+[02:09:12.893] Server  LOG     ✓ Compiled in 76ms
+[02:09:25.093] Server  LOG     ✓ Compiled in 15ms
+[02:09:30.890] Server  LOG     ✓ Compiled in 15ms
+[02:09:57.230] Server  LOG     ✓ Compiled in 14ms
+[02:10:11.987] Server  LOG     ✓ Compiled in 18ms
+[02:10:17.584] Server  LOG     ✓ Compiled in 16ms
+[02:10:28.581] Server  LOG     ✓ Compiled in 15ms
+[02:10:39.051] Server  LOG     ✓ Compiled in 34ms
+[02:11:05.542] Server  LOG     ✓ Compiled in 23ms
+[02:11:45.644] Server  LOG     ✓ Compiled in 27ms
+[02:12:06.293] Server  LOG     ✓ Compiled in 26ms
+[02:12:11.682] Server  LOG     ✓ Compiled in 16ms
+[02:12:21.318] Server  LOG     ✓ Compiled in 37ms
+[02:12:25.347] Server  LOG     ✓ Compiled in 17ms
+[02:14:09.287] Server  LOG     ✓ Compiled in 3ms
+[02:15:52.665] Server  LOG     ✓ Compiled in 33ms
+[02:17:37.551] Server  LOG     ✓ Compiled in 30ms
+[02:17:55.532] Server  LOG     ✓ Compiled in 14ms
+[02:18:43.218] Server  LOG     ✓ Compiled in 43ms
+[02:19:49.844] Server  LOG     ✓ Compiled in 17ms
+[02:20:03.186] Server  LOG     ✓ Compiled in 20ms
+[02:20:09.269] Server  LOG     ✓ Compiled in 52ms
+[02:20:22.649] Server  LOG     ✓ Compiled in 30ms
+[02:21:29.553] Server  LOG     ✓ Compiled in 31ms
+[02:21:29.650] Browser ERROR   uncaughtError: ReferenceError: StepperControl is not defined
+[02:21:44.200] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:21:44.227] Server  LOG     ✓ Compiled in 52ms
+[02:21:44.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:24:58.878] Server  LOG     ✓ Compiled in 29ms
