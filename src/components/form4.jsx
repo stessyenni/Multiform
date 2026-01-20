@@ -31,6 +31,12 @@ export default function MultiForm() {
           fullname,
           email,
           phone,
+          educationLevel,
+          program,
+          certifications,
+          jobTitle,
+          experience,
+          skills,
         }),
       });
 

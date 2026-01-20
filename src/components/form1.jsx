@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import StepperControl from "./stepperControl";
 import Submitbtn from "./submitbtn";
 
-export default function MultiForm() {
+export default function Form1() {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -13,7 +13,6 @@ export default function MultiForm() {
       <h1 className="font-bold text-justify text-[24px] text-black ">
         Personal Info
       </h1>
-
       <form className="w-[70%] p-5 border-10 border-x-[#3c357c] border-y-[#ea5535] text-[13.7px] text-black flex flex-col lg:flex-col cursor-pointer lg:p- gap-5 ">
         <label htmlFor="fullname" className="lg:text-[17px] lg:font-bold">
           1. Name*
@@ -28,7 +27,6 @@ export default function MultiForm() {
           id="fullname"
           placeholder="e.g John Doe"
         />
-
         <label
           htmlFor="email"
           className="font-bold text-[16px] lg:text-[17px] lg:font-bold"
@@ -45,7 +43,6 @@ export default function MultiForm() {
           id="email"
           placeholder="Enter your email"
         />
-
         <label
           htmlFor="phone"
           className="font-bold text-[16px] lg:text-[17px] lg:font-bold"
@@ -61,7 +58,6 @@ export default function MultiForm() {
           className="w-[40%] h-10 border rounded-lg pl-2 shadow-md"
           placeholder="e.g +1 234 567 890"
         ></input>
-
         {/* Navigation Controls */}
         <StepperControl />
       </form>

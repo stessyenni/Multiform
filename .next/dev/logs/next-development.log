@@ -1197,3 +1197,29 @@ https://nextjs.org/docs/messages/module-not-found
 [03:11:00.715] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
 [03:11:00.754] Server  LOG     ✓ Compiled in 19ms
 [03:11:01.527] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:21:41.007] Server  LOG     ✓ Compiled in 184ms
+[09:53:37.980] Server  LOG     ✓ Compiled in 1552ms
+[09:55:30.063] Server  LOG     ✓ Compiled in 624ms
+[09:55:31.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:57:27.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:58:00.073] Server  LOG     ✓ Compiled in 24ms
+[09:58:16.754] Server  LOG     ✓ Compiled in 26ms
+[09:58:24.144] Server  LOG     ✓ Compiled in 24ms
+[09:58:47.102] Server  LOG     ✓ Compiled in 45ms
+[09:58:53.280] Server  LOG     ✓ Compiled in 196ms
+[09:59:02.625] Server  LOG     ✓ Compiled in 65ms
+[09:59:09.317] Server  LOG     ✓ Compiled in 51ms
+[09:59:18.450] Server  LOG     ✓ Compiled in 71ms
+[09:59:36.562] Server  LOG     ✓ Compiled in 60ms
+[10:00:02.696] Server  LOG     ✓ Compiled in 42ms
+[10:00:12.499] Server  LOG     ✓ Compiled in 17ms
+[10:01:20.035] Server  LOG     ✓ Compiled in 35ms
+[10:01:30.335] Server  LOG     ✓ Compiled in 26ms
+[10:01:40.578] Server  LOG     ✓ Compiled in 22ms
+[10:01:46.084] Server  LOG     ✓ Compiled in 24ms
+[10:01:53.520] Server  LOG     ✓ Compiled in 36ms
+[10:03:17.473] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Documents/GitHub/Multiform/src/components/form1.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[10:03:17.696] Server  LOG     ✓ Compiled in 36ms
+[10:03:18.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:05:21.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:23:39.168] Server  LOG     ✓ Compiled in 61ms
