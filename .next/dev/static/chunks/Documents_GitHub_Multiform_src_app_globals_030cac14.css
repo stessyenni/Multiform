@@ -44,13 +44,12 @@
   :root, :host {
     --color-red-500: #fb2c36;
     --color-red-600: #e40014;
-    --color-green-200: #b9f8cf;
+    --color-amber-50: #fffbeb;
     --color-green-300: #7bf1a8;
     --color-green-400: #05df72;
     --color-green-500: #00c758;
     --color-green-700: #008138;
     --color-green-800: #016630;
-    --color-blue-200: #bedbff;
     --color-blue-500: #3080ff;
     --color-blue-600: #155dfc;
     --color-blue-800: #193cb8;
@@ -63,12 +62,8 @@
     --color-gray-100: #f3f4f6;
     --color-gray-200: #e5e7eb;
     --color-gray-300: #d1d5dc;
-    --color-gray-400: #99a1af;
-    --color-gray-500: #6a7282;
-    --color-gray-600: #4a5565;
     --color-gray-700: #364153;
     --color-gray-800: #1e2939;
-    --color-gray-900: #101828;
     --color-zinc-50: #fafafa;
     --color-black: #000;
     --color-white: #fff;
@@ -94,13 +89,12 @@
     :root, :host {
       --color-red-500: lab(55.4814% 75.0732 48.8528);
       --color-red-600: lab(48.4493% 77.4328 61.5452);
-      --color-green-200: lab(92.4222% -26.4702 12.9427);
+      --color-amber-50: lab(98.6252% -.635922 8.42309);
       --color-green-300: lab(86.9953% -47.2691 25.0054);
       --color-green-400: lab(78.503% -64.9265 39.7492);
       --color-green-500: lab(70.5521% -66.5147 45.8073);
       --color-green-700: lab(47.0329% -47.0239 31.4788);
       --color-green-800: lab(37.4616% -36.7971 22.9692);
-      --color-blue-200: lab(86.15% -4.04379 -21.0797);
       --color-blue-500: lab(54.1736% 13.3369 -74.6839);
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
       --color-blue-800: lab(30.2514% 27.7853 -70.2699);
@@ -113,12 +107,8 @@
       --color-gray-100: lab(96.1596% -.0823438 -1.13575);
       --color-gray-200: lab(91.6229% -.159115 -2.26791);
       --color-gray-300: lab(85.1236% -.612259 -3.7138);
-      --color-gray-400: lab(65.9269% -.832707 -8.17473);
-      --color-gray-500: lab(47.7841% -.393182 -10.0268);
-      --color-gray-600: lab(35.6337% -1.58697 -10.8425);
       --color-gray-700: lab(27.1134% -.956401 -12.3224);
       --color-gray-800: lab(16.1051% -1.18239 -11.7533);
-      --color-gray-900: lab(8.11897% .811279 -12.254);
       --color-zinc-50: lab(98.26% 0 0);
     }
   }
@@ -435,24 +425,12 @@
     margin-block: calc(var(--spacing) * 1);
   }
 
-  .my-3 {
-    margin-block: calc(var(--spacing) * 3);
-  }
-
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
 
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
-  }
-
-  .mr-2 {
-    margin-right: calc(var(--spacing) * 2);
-  }
-
-  .mb-2 {
-    margin-bottom: calc(var(--spacing) * 2);
   }
 
   .mb-4 {
@@ -503,10 +481,6 @@
     height: 100vh;
   }
 
-  .min-h-screen {
-    min-height: 100vh;
-  }
-
   .w-0 {
     width: calc(var(--spacing) * 0);
   }
@@ -551,6 +525,10 @@
     width: 100%;
   }
 
+  .w-screen {
+    width: 100vw;
+  }
+
   .max-w-7xl {
     max-width: var(--container-7xl);
   }
@@ -582,10 +560,6 @@
 
   .items-center {
     align-items: center;
-  }
-
-  .justify-around {
-    justify-content: space-around;
   }
 
   .justify-between {
@@ -692,6 +666,10 @@
     background-color: #ea5535;
   }
 
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
+  }
+
   .bg-blue-500 {
     background-color: var(--color-blue-500);
   }
@@ -706,10 +684,6 @@
 
   .bg-gray-100 {
     background-color: var(--color-gray-100);
-  }
-
-  .bg-green-400 {
-    background-color: var(--color-green-400);
   }
 
   .bg-green-500 {
@@ -779,14 +753,6 @@
     padding: calc(var(--spacing) * 5);
   }
 
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
-  }
-
-  .p-20 {
-    padding: calc(var(--spacing) * 20);
-  }
-
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -797,14 +763,6 @@
 
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
-  }
-
-  .px-6 {
-    padding-inline: calc(var(--spacing) * 6);
-  }
-
-  .px-7 {
-    padding-inline: calc(var(--spacing) * 7);
   }
 
   .px-8 {
@@ -819,14 +777,6 @@
     padding-inline: calc(var(--spacing) * 15);
   }
 
-  .px-18 {
-    padding-inline: calc(var(--spacing) * 18);
-  }
-
-  .px-20 {
-    padding-inline: calc(var(--spacing) * 20);
-  }
-
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -835,16 +785,8 @@
     padding-block: calc(var(--spacing) * 3);
   }
 
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
-  }
-
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
-  }
-
-  .pt-10 {
-    padding-top: calc(var(--spacing) * 10);
   }
 
   .pt-20 {
@@ -917,32 +859,12 @@
     color: var(--color-gray-200);
   }
 
-  .text-gray-400 {
-    color: var(--color-gray-400);
-  }
-
-  .text-gray-500 {
-    color: var(--color-gray-500);
-  }
-
-  .text-gray-600 {
-    color: var(--color-gray-600);
-  }
-
   .text-gray-700 {
     color: var(--color-gray-700);
   }
 
   .text-gray-800 {
     color: var(--color-gray-800);
-  }
-
-  .text-gray-900 {
-    color: var(--color-gray-900);
-  }
-
-  .text-green-200 {
-    color: var(--color-green-200);
   }
 
   .text-green-300 {
@@ -1025,18 +947,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-blue-200:hover {
-      background-color: var(--color-blue-200);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-blue-600:hover {
-      background-color: var(--color-blue-600);
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:bg-blue-800:hover {
       background-color: var(--color-blue-800);
     }
@@ -1057,12 +967,6 @@
   @media (hover: hover) {
     .hover\:bg-green-700:hover {
       background-color: var(--color-green-700);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-green-800:hover {
-      background-color: var(--color-green-800);
     }
   }
 
@@ -1163,7 +1067,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ededed;
     --foreground: #ededed;
   }
 }

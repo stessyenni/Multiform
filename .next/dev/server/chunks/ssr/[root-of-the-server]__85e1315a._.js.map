@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///Users/stessy/Documents/GitHub/Multiform/src/app/page.js"],"sourcesContent":["import MultiForm from \"@/components/form1\";\nimport SidebarSteps from \"@/components/sidebarSteps\";\n\nexport default function App() {\n  return (\n    <main className=\"flex h-screen items-center justify-center px-10 py-5 gap-15 bg-zinc-50 font-sans\">\n      {/* <SidebarSteps /> */}\n\n      <MultiForm />\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE,kRAAC;QAAK,WAAU;kBAGd,cAAA,kRAAC,0KAAS;;;;;;;;;;AAGhB"}}]
+}

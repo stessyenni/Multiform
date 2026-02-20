@@ -11,7 +11,7 @@ const SidebarSteps = () => {
   ];
   const [currentStep, setCurrentStep] = React.useState(1);
   return (
-    <aside className=" h-full rounded-lg pt-20 bg-blue-600 w-fit px-15 lg:bg-[url('/bg-sidebar-desktop.svg')] bg-bottom bg-no-repeat bg-cover ">
+    <aside className=" h-screen rounded-lg pt-20 bg-blue-600 w-fit px-15 lg:bg-[url('/bg-sidebar-desktop.svg')] bg-bottom bg-no-repeat bg-cover ">
       <nav className="border-red-600 h-full flex flex-col  ">
         {steps.map((step) => (
           <div key={step.stepNum} className="flex items-center gap-2 mb-4">

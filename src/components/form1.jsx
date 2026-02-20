@@ -9,7 +9,7 @@ export default function Form1() {
   const [phone, setPhone] = useState("");
 
   return (
-    <div className="w-full p-5 flex flex-col gap-8 cursor-pointer">
+    <div className="w-screen p-5 flex flex-col gap-8 cursor-pointer">
       <h1 className="font-bold text-justify text-[24px] text-black ">
         Personal Info
       </h1>
