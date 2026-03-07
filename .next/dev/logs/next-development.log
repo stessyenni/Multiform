@@ -1,33 +1,6 @@
-[00:00:02.909] Server  LOG     ✓ Ready in 2s
-[00:00:15.067] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:30.888] Server  LOG     ✓ Compiled in 49ms
-[00:06:55.953] Server  LOG     ✓ Compiled in 46ms
-[00:07:02.814] Server  LOG     ✓ Compiled in 47ms
-[00:07:17.294] Server  LOG     ✓ Compiled in 45ms
-[00:07:33.338] Server  LOG     ✓ Compiled in 40ms
-[00:07:45.970] Server  LOG     ✓ Compiled in 43ms
-[00:07:53.206] Server  LOG     ✓ Compiled in 53ms
-[00:08:04.832] Server  LOG     ✓ Compiled in 49ms
-[00:08:20.206] Server  LOG     ✓ Compiled in 45ms
-[00:10:39.800] Server  LOG     ✓ Compiled in 34ms
-[00:11:17.691] Server  LOG     ✓ Compiled in 103ms
-[00:11:17.801] Browser ERROR   ./Documents/GitHub/Multiform/src/components/form1.jsx:19:21
-Parsing ecmascript source code failed
-  17 |         </label>
-  18 |         <input
-> 19 |           onChange={;(e) => setFullname(e.target.value)}
-     |                     ^
-  20 |           required
-  21 |           value={fullname}
-  22 |           className='lg:w-[40%] h-11 border rounded-lg pl-2'
-
-Expected '</', got ';'
-
-Import trace:
-  Server Component:
-    ./Documents/GitHub/Multiform/src/components/form1.jsx
-    ./Documents/GitHub/Multiform/src/app/page.js
-[00:11:40.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[198:22:46.542] Server  LOG     ○ Compiling /_not-found/page ...
-[198:22:51.337] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[199:22:39.489] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.152] Server  LOG     ✓ Ready in 1486ms
+[00:00:08.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.347] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:31.726] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[63:33:19.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[87:49:09.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
